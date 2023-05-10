@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    src: url(../fonts/luckiestguy-regular-webfont.woff) format('woff'),
+    url(../fonts/luckiestguy-regular-webfont.svg) format('svg'),
+    url(../fonts/LuckiestGuy-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik'; 
+    font-weight: 300;
+    src: url(../fonts/rubik-medium-webfont.woff) format('woff'),
+    url(../fonts/rubik-medium-webfont.svg) format('svg'),
+    url(../fonts/Rubik-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 700;
+    src: url(../fonts/rubik-bold-webfont.woff) format('woff'),
+    url(../fonts/rubik-bold-webfont.svg) format('svg'),
+    url(../fonts/Rubik-Bold.ttf) format('truetype');
+}
+
+title {
+    font-family: 'Luckiest Guy' cursive;
+}
+
+h1 {
+    font-family: 'Rubik' cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2, h3, h4 {
+    font-family: 'Rubik';
+    font-weight: 400;
+    
+}
+
+p {
+    font-family: 'Luckiest Guy' cursive;
+    font-weight: 300;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    background: #efefef;
+    border-radius: 10px;
+}
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-column-gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+}
+
+
